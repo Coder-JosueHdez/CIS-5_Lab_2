@@ -12,7 +12,7 @@ int main()
 
     cout << "What is your age?" << endl;
     cin >> age;
-    cout << "What is your height(Please answer in inches)?" << endl;
+    cout << "What is your height in inches?" << endl;
     cin >> height;
 
     if (age >= 7 && height >= 48)
@@ -21,7 +21,7 @@ int main()
     }
     else
     {
-        cout << "YOU SHALL NOT PASSSSSSS!!!!!!";
+        cout << "Sorry, you may not ride.";
     }
 
     return 0;
