@@ -15,6 +15,7 @@ int main()
     cout << "What is your height in inches?" << endl;
     cin >> height;
 
+    //conditions
     if (age >= 7 && height >= 48)
     {
         cout << "You may ride!:)";
